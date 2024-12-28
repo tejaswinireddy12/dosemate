@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color:#3082b1;;
+  padding: 10px 0;
+}
+
+.navbar a {
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.navbar a:hover {
+  background-color: #074f80;
+  border-radius: 5px;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+header, footer {
+  background-color: #3082b1;
+  color: white;
+  padding: 5px;
+  text-align: center;
+}
+
+.chatbot {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+h2 {
+  color: #333;
+}
+
+p {
+  font-size: 16px;
+  color:white;
+}

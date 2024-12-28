@@ -1,0 +1,85 @@
+/* General Body Styling */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Chatbot Container */
+.chatbot-container {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  z-index: 1000;
+}
+
+/* Help Me Button */
+.help-me-btn {
+  width: 80px;
+  height: 80px;
+  background-color: #3082b1;
+  color:white;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 80px;
+  border-radius: 50%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.help-me-btn:hover {
+  transform: scale(1.1);
+}
+
+/* Chatbot Popup */
+.chatbot {
+  width: 250px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #3082b1;
+  position: fixed;
+  bottom: 120px;
+  right: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  
+}
+
+/* Messages */
+.messages {
+  max-height: 300px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+  
+}
+
+/* User Messages */
+.user {
+  text-align: right;
+  color: rgb(78, 78, 160);
+}
+
+/* Bot Messages */
+.bot {
+  text-align: left;
+  color: green;
+}
+
+/* Input Field */
+input {
+  width: calc(100% - 50px);
+  padding: 5px;
+}
+
+/* Send Button */
+button {
+  padding: 5px;
+  background-color: smoky whitesmoke;
+  color: rgb(69, 68, 68);
+  width: 100px;
+  margin: 6px;
+}
+
+
+
